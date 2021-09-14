@@ -90,7 +90,7 @@ If you are unfamiliar with Unity, then you may want to get started by completing
 To complete this assignment, you are going to create a simple virtual environment and then deploy the application on the Oculus Quest.   If you get stuck on any of these steps, please watch the Lecture 3 video that walks through these steps.
 
 1. Check out this assignment using GitHub classroom
-2. Create a new Unity project inside the assignment folder.  You should use the VR Project template as shown in class.
+2. Create a new Unity project inside the assignment folder.  You should use the VR Project template as shown in class.  Note that you may need to update your Unity Hub to version 3.0 if the VR templates are not visible.
 3. Configure the project platform for Android with support for the Oculus Quest.
 4. Build the APK file and deploy the project to your Quest headset.  You should save it as `Assignment-1.apk` in the same folder as the `README.md` file.  
 5. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
