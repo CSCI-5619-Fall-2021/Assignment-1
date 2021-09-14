@@ -75,11 +75,11 @@ The Hub application is useful for creating projects and managing installations o
 2. Android SDK & NDK Tools
 3. OpenJDK
 
-At the time of this writing, the exact version number is 2020.3.18f1.  Note that the minor version number (18f1) may change during the semester if Unity releases an update.  However, the projects will still be compatible between all 2020.3.xxxx versions, so the last number can be different.
+At the time of this writing, the most recent LTS version number is **2020.3.18f1**.  Note that the minor version number (18f1) may change during the semester if Unity releases an update.  Unfortunately, the projects are not backwards compatible.  If you install Unity at a later point in time, please make sure you install the *exact* version we are using in class.
 
 **Option 2: Using the CSE Labs computers**
 
-Unity 2020.3.xxxx should already be installed with Android support on CSE Labs computers in the Keller 1-254 lab.  Note that access to this lab is available *only* for students in this class, so no other students should be working there this semester.
+Unity 2020.3.18f1 should already be installed with Android support on CSE Labs computers in the Keller 1-254 lab.  Note that access to this lab is available *only* for students in this class, so no other students should be working there this semester.
 
 ## Step  8: Unity Tutorials (Optional)
 
