@@ -2,7 +2,10 @@
 
 **Due: Tuesday, September 21, 10:00pm CDT**
 
-The purpose of the assignment is to complete the setup of the virtual reality hardware and software that we will be using in this course.
+The purpose of the assignment is twofold:
+
+1. Complete the setup of the virtual reality hardware and software that we will be using in this course.
+2. Do a little work with Unity.
 
 ## Submission Information
 
@@ -96,19 +99,26 @@ To complete this assignment, you are going to create a simple virtual environmen
 
 ## Step 10: Add Some Objects to the Scene
 
-1.	You are almost done!  Now, go back to Unity and add a few 3D objects to the scene (cubes, cylinders, spheres, etc.).
+1.	Now, go back to Unity and add a few 3D objects to the scene (cubes, cylinders, spheres, etc.).
 2.	Move each object to different location around the user.
 3.	When you have added at least four objects to your scene, *Build and Run* the project again.  
+
+## Step 11: Animate an Object
+
+In this step, you are going to add a C# script that animates one of the 3D objects you created in the previous step.  You can make the object do anything you want, with the following requirements:
+
+1. The object should use the `Update()` function to continuously move in every frame.  You can change the object's translation, rotation, scale, or any combination of the three.
+2. The object should never move outside the user's view or disappear.  This means that you may need to make the animation cycle between two end points.
 
 ## Rubric
 
 Graded out of 10 points. 
 
 1. Unity project created in the assignment folder (1)
-2. Project is configured correctly (3)
-3. Submission includes APK file (1)
-4. Project runs correctly on the Quest (3)
-5. Scene contains at least four new objects (2)
+2. Submission includes APK file (1)
+3. Project runs on the Quest (4)
+4. Scene contains at least four new objects (2)
+5. One of the objects is animated (2)
 
 ## Submission
 
