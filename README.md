@@ -23,8 +23,10 @@ In order to build VR applications on the Oculus quest, you will need to create a
 
 Unfortunately, Facebook has increased their integration with Oculus software, and by default they want you to log in with your Facebook account.  This is the easiest option.  However, I realize that some of you may not comfortable with this.  Fortunately, developers can use the following workaround:
 
-1. Create an unmerged Oculus developer account
+1. Create an unmerged Oculus developer account.
 2. Create an [Oculus Test User](https://skarredghost.com/2020/11/07/how-to-oculus-test-users/).  This will let you log in to the headset for development purposes.  Note that you will not be able to access the Oculus Store or social media functions without using a real Facebook account (you will not need to do either of those in this course).
+
+For some reason, Oculus will ask you to enter a credit card number for verification of your developer account.  (Rest assured that if I ever meet the person that came up with that idea, I will give them a piece of my mind.)  We have confirmed that you do **not** need to enter this information to activate developer mode on your headset.  When you see that prompt, you can just close to the window and go on to step 2.
 
 ## Step 2: Oculus Organization Setup
 
