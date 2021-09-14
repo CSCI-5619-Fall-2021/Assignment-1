@@ -89,13 +89,12 @@ If you are unfamiliar with Unity, then you may want to get started by completing
 
 To complete this assignment, you are going to create a simple virtual environment and then deploy the application on the Oculus Quest.   If you get stuck on any of these steps, please watch the Lecture 3 video that walks through these steps.
 
-1. Check out this assignment using GitHub classroom
-2. Create a new Unity project inside the assignment folder.  You should use the VR Project template as shown in class.  Note that you may need to update your Unity Hub to version 3.0 if the VR templates are not visible.
-3. Configure the project platform for Android with support for the Oculus Quest.
-4. Build the APK file and deploy the project to your Quest headset.  You should save it as `Assignment-1.apk` in the same folder as the `README.md` file.  
-5. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
-6. After the build process is complete, you can unplug the headset and put it on.  Your scene should be loaded automatically.  If not, your application is also installed on the Quest and will show up in the Library under Unknown Sources.
-7. Test the application on your Oculus Quest.  If it works, then congratulations... you have a working VR development pipeline!
+1. Check out this assignment using GitHub classroom.  An empty Unity project has already been created for you.  (Note: this project was created using the VR Project template as shown in class.  If you want to create new projects using this template, you will need to install version 3.0 of Unity Hub.  The VR templates are not present in previous versions.)
+2. Configure the project platform settings for Android with support for the Oculus Quest.  You should also give the project a well-structured package name, such as `edu.csci5619.username.assignment1`, where `username` is your x500 ID.
+3. Build the APK file and deploy the project to your Quest headset.  You should save it as `Assignment-1.apk` in the same folder as the `README.md` file.  
+4. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
+5. After the build process is complete, you can unplug the headset and put it on.  Your scene should be loaded automatically.  If not, your application is also installed on the Quest and will show up in the Library under Unknown Sources.
+6. Test the application on your Oculus Quest.  If it works, then congratulations... you have a working VR development pipeline!
 
 ## Step 10: Add Some Objects to the Scene
 
@@ -114,7 +113,7 @@ In this step, you are going to add a C# script that animates one of the 3D objec
 
 Graded out of 10 points. 
 
-1. Unity project created in the assignment folder (1)
+1. Platform settings configured correctly (1)
 2. Submission includes APK file (1)
 3. Project runs on the Quest (4)
 4. Scene contains at least four new objects (2)
@@ -122,7 +121,7 @@ Graded out of 10 points.
 
 ## Submission
 
-You will need to check out and submit the project through GitHub classroom.  The project folder should contain the Unity project that you created.  Do not remove the `.gitignore` or `README.md` files.
+You will need to check out and submit the project through GitHub classroom.  Make sure your APK file is in the root folder. Do not remove the `.gitignore` or `README.md` files.
 
 Please test that your submission meets these requirements.  For example, after you check in your final version of the assignment to GitHub, check it out again to a new directory and make sure everything opens and runs correctly.  You can also test your APK file by installing it manually using [SideQuest](https://sidequestvr.com/).
 
