@@ -77,6 +77,8 @@ The Hub application is useful for creating projects and managing installations o
 
 At the time of this writing, the most recent LTS version number is **2020.3.18f1**.  Note that the minor version number (18f1) may change during the semester if Unity releases an update.  Unfortunately, the projects are not backwards compatible.  If you install Unity at a later point in time, please make sure you install the *exact* version we are using in class.
 
+*Update: some people have encountered errors during the installation of Android build support using the Unity Hub 3.0 beta.  If this happens to you, go to Preferences->Advanced and change the Channel from Beta to Production.  Unity Hub will revert back to version 2.  Complete the Unity installation as described above, and then you can upgrade back to 3.0 beta.*
+
 **Option 2: Using the CSE Labs computers**
 
 Unity 2020.3.18f1 should already be installed with Android support on CSE Labs computers in the Keller 1-254 lab.  Note that access to this lab is available *only* for students in this class, so no other students should be working there this semester.
@@ -91,12 +93,16 @@ If you are unfamiliar with Unity, then you may want to get started by completing
 
 To complete this assignment, you are going to create a simple virtual environment and then deploy the application on the Oculus Quest.   If you get stuck on any of these steps, please watch the Lecture 3 video that walks through these steps.
 
-1. Check out this assignment using GitHub classroom.  An empty Unity project has already been created for you.  (Note: this project was created using the VR Project template as shown in class.  If you want to create new projects using this template, you will need to install version 3.0 of Unity Hub.  The VR templates are not present in previous versions.)
-2. Configure the project platform settings for Android with support for the Oculus Quest.  You should also give the project a well-structured package name, such as `edu.csci5619.username.assignment1`, where `username` is your x500 ID.
-3. Build the APK file and deploy the project to your Quest headset.  You should save it as `Assignment-1.apk` in the same folder as the `README.md` file.  
-4. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
-5. After the build process is complete, you can unplug the headset and put it on.  Your scene should be loaded automatically.  If not, your application is also installed on the Quest and will show up in the Library under Unknown Sources.
-6. Test the application on your Oculus Quest.  If it works, then congratulations... you have a working VR development pipeline!
+1. Check out this assignment using GitHub classroom.  An empty Unity project has already been created for you.  (Note: this project was created using the VR Project template as shown in class.  If you want to create new projects using this template, you will need to install version 3.0 beta of Unity Hub.  The VR templates are not present in previous versions.)
+2. Open the `SampleScene` under the Scenes folder. 
+3. Under Build Settings, click "Add Open Scenes" to make this the default scene of your build.
+4. Open Player Settings and configure the project to build for Android with support for the Oculus Quest.  
+5. You should also fill out the "Company Name" and "Product Name" fields under Player Settings.  These will be used to identify the application after it is installed on the headset.
+6. Build the APK file and deploy the project to your Quest headset.  You should save it as `Assignment-1.apk` in the same folder as the `README.md` file.  
+7. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
+8. After the build process is complete, you can unplug the headset and put it on.  Your scene should be loaded automatically.  If not, your application is also installed on the Quest and will show up in the Library under Unknown Sources.
+9. Test the application on your Oculus Quest.  If it works, then congratulations... you have a working VR development pipeline!
+10. Note that in the default scene, the controllers may not be visible when you open the application on the headset.  (They will actually appear under the floor.)  This is because the tracking origin is set incorrectly.  To fix this, click on the XRRig object in the sample scene.  In the object inspector, change "Requested Tracking Mode" from Default to Floor.  Rebuild the application, and the controllers should show up correctly.
 
 ## Step 10: Add Some Objects to the Scene
 
